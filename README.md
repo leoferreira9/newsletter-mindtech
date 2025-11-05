@@ -19,7 +19,7 @@ Projeto desenvolvido como parte do processo seletivo da **Mindtech**.
 ```sql
 CREATE DATABASE mindtech_newsletter;
 ```
-2. Em seguida, renomear o arquivo abaixo:
+2. Abra o projeto no intelliJ, em seguida, renomear o arquivo abaixo:
 ```
 src/main/resources/application-example.properties
 ```
