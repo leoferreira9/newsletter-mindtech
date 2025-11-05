@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b173d;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: radial-gradient(circle at center, #0b173d 0%, #000814 100%);
+  width: 1000px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 50px 60px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+/* SEÇÃO ESQUERDA */
+.left-section {
+  width: 52%;
+}
+
+.left-section h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.left-section p {
+  font-size: 1rem;
+  color: #d0d0d0;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.left-section ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.left-section li {
+  margin-bottom: 12px;
+}
+
+.left-section strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.left-section label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.left-section input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+}
+
+.left-section button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 90%;
+}
+
+.left-section button:hover {
+  background-color: #2b82f6;
+}
+
+/* SEÇÃO DIREITA */
+.right-section {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 400px;
+
+}
+
+.illustration-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  opacity: 0.85;
+}
+
+#emailParagraph{
+    margin-bottom: -15px;
+}
+
+
+.topics {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.topic {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.icon {
+  width: 24px; /* menor e proporcional */
+  height: 24px;
+  margin-top: 5px;
+  filter: brightness(0) saturate(100%) invert(36%) sepia(93%) saturate(2515%) hue-rotate(202deg) brightness(98%) contrast(97%);
+  /* converte o preto do SVG para azul */
+}
+
+.topic p {
+  margin: 0;
+  line-height: 1.5;
+  color: #d9e2ff;
+  font-size: 14px;
+}
+
+.topic p strong {
+  font-weight: 600;
+  color: white;
+}
+
+
+
+
+.container.center {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Centraliza o conteúdo da tela de agradecimento */
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Conteúdo central */
+.thankyou-content {
+  text-align: center;
+  max-width: 600px;
+  background: radial-gradient(circle at center, #0b173d 0%, #000814 100%);
+  padding: 90px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Ícone de check (grande e branco) */
+.check-icon {
+  width: 120px;
+  margin-bottom: 35px;
+  filter: brightness(0) invert(1); /* deixa o SVG branco */
+}
+
+/* Título */
+.thankyou-content h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Texto */
+.thankyou-content p {
+  font-size: 1rem;
+  color: #d0d0d0;
+  line-height: 1.6;
+  margin-bottom: 45px;
+}
+
+/* Logo Mindtech */
+.thankyou-logo {
+  width: 150px;
+  opacity: 0.85;
+}
+
